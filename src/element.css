@@ -1,0 +1,41 @@
+.awesome-btn {
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(110, 142, 251, 0.4);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .awesome-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(110, 142, 251, 0.6);
+    background: linear-gradient(135deg, #5b73e8, #935dd7);
+  }
+  .awesome-input {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    background: #fff;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(135deg, #6e8efb, #a777e3);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    box-shadow: 0 4px 14px rgba(110, 142, 251, 0.2);
+    transition: all 0.3s ease;
+    outline: none;
+  }
+  
+  .awesome-input:focus {
+    box-shadow: 0 6px 18px rgba(110, 142, 251, 0.4);
+    border-color: transparent;
+  }
+  
+
+  
