@@ -104,6 +104,7 @@ function App() {
       } catch {}
     }
   };
+  //rutik demo
 
   const handleLecturerAuthenticated = () => {
     const lec = localStorage.getItem('lecturer_user');
